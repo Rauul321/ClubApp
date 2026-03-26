@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="background-pane" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox spacing="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" spacing="20.0" style="-fx-background-color: rgba(255,255,255,0.03);">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                            <children>
+                                <Label styleClass="title-label" style="-fx-font-size: 26px;" text="Available Activities" />
+                                <Label style="-fx-text-fill: #95a5a6; -fx-font-size: 13px;" text="Explore and join upcoming club events" />
+                            </children>
+                        </VBox>
+
+                        <TextField fx:id="searchField" prefHeight="40.0" prefWidth="250.0" promptText=" Search activities..." styleClass="input-field" />
+                        <ChoiceBox fx:id="filterChoiceBox" prefHeight="40.0" prefWidth="180.0" styleClass="input-field">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="All" />
+                                    <String fx:value="Course" />
+                                    <String fx:value="Competition" />
+                                </FXCollections>
+                            </items>
+                        </ChoiceBox>
+                    </children>
+                    <padding>
+                        <Insets left="30.0" right="30.0" />
+                    </padding>
+                </HBox>
+
+                <ScrollPane fitToWidth="true" style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent;" VBox.vgrow="ALWAYS">
+                    <content>
+                        <VBox fx:id="activityContainer" spacing="15.0">
+                            <padding>
+                                <Insets bottom="30.0" left="30.0" right="30.0" top="20.0" />
+                            </padding>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

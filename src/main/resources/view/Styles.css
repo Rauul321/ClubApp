@@ -1,0 +1,213 @@
+/* ========================================================== */
+/* COLORES BASE Y FONDO                                     */
+/* ========================================================== */
+
+.background-pane {
+    -fx-background-color: #1e1e1e;
+}
+
+/* Capa de cristal para la Landing Page */
+.glass-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 20;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-radius: 20;
+}
+
+.form-container {
+    -fx-background-color: #2a2a2a;
+    -fx-padding: 30;
+    -fx-spacing: 10;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 15, 0, 0, 0);
+}
+
+/* ========================================================== */
+/* TEXTO Y ETIQUETAS                                        */
+/* ========================================================== */
+
+.title-label {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20px 0;
+}
+
+/* Título gigante de la primera vista */
+.welcome-title {
+    -fx-text-fill: white;
+    -fx-font-size: 80px;
+    -fx-font-weight: 900;
+    -fx-font-family: "Segoe UI Black", Arial;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 10, 0, 0, 5);
+}
+
+.input-label {
+    -fx-text-fill: #b0b0b0;
+    -fx-font-size: 14px;
+}
+
+.status-message {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-size: 12px;
+}
+
+.error-label {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 12px;
+}
+
+/* ========================================================== */
+/* BOTONES (Unificados y Mejorados)                          */
+/* ========================================================== */
+
+.primary-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 25;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-transition: all 0.2s;
+}
+
+.primary-button:hover {
+    -fx-background-color: #38b000; /* Cambio a verde Club al pasar el ratón */
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.secondary-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-border-color: rgba(255, 255, 255, 0.5);
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-border-color: white;
+}
+
+/* Botón peligroso (Unroll/Delete) */
+.danger-button {
+    -fx-background-color: #e74c3c;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+}
+
+.danger-button:hover {
+    -fx-background-color: #c0392b;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+/* ========================================================== */
+/* CAMPOS DE ENTRADA                                         */
+/* ========================================================== */
+
+.text-field, .password-field, .date-picker > .text-field {
+    -fx-control-inner-background: #3c3c3c;
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #444444;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #38b000;
+    -fx-effect: dropshadow(gaussian, rgba(56, 176, 0, 0.3), 5, 0, 0, 0);
+}
+
+/* ========================================================== */
+/* LISTAS Y CARDS (SOCIOS/ACTIVIDADES)                       */
+/* ========================================================== */
+
+.item-card {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+    -fx-background-radius: 12;
+    -fx-border-color: rgba(255, 255, 255, 0.1);
+    -fx-border-radius: 12;
+    -fx-padding: 12;
+}
+
+.item-card:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.08);
+    -fx-border-color: #38b000;
+}
+
+/* Tu etiqueta de fondo azul para participantes */
+.background-item {
+    -fx-background-color: #007bff;
+    -fx-background-radius: 10;
+}
+
+/* ========================================================== */
+/* SCROLLPANE Y SIDEBAR                                     */
+/* ========================================================== */
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.sidebar-container {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: rgba(255, 255, 255, 0.05);
+    -fx-border-width: 0 1 0 0;
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #b0b0b0;
+    -fx-padding: 12 20;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-text-weight: bold;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: rgba(56, 176, 0, 0.1);
+    -fx-text-fill: #38b000;
+}
+
+.red-buttons {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+}
+
+/* ========================================================== */
+/* CHOICEBOX (Personalizado)                                */
+/* ========================================================== */
+
+.choice-box {
+    -fx-background-color: #3c3c3c;
+    -fx-border-color: #444444;
+    -fx-border-radius: 6;
+    -fx-text-fill: white;
+}
+
+.choice-box > .label {
+    -fx-text-fill: white;
+}
+
+.choice-box:hover {
+    -fx-border-color: #38b000;
+}
+

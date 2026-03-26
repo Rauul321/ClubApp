@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="background-pane" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <SplitPane dividerPositions="0.22" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <VBox alignment="TOP_CENTER" maxWidth="250.0" minWidth="200.0" styleClass="sidebar-container">
+                    <children>
+                        <VBox alignment="CENTER" prefHeight="150.0" spacing="10.0">
+                            <children>
+                                <Label styleClass="title-label" text="CLUB MANAGER" style="-fx-font-size: 18px; -fx-text-fill: white;">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Administrator" style="-fx-text-fill: #95a5a6; -fx-font-size: 12px;" />
+                            </children>
+                        </VBox>
+
+                        <Separator opacity="0.1" maxWidth="160.0">
+                            <VBox.margin><Insets bottom="20.0" /></VBox.margin>
+                        </Separator>
+
+                        <VBox spacing="8.0" VBox.vgrow="ALWAYS">
+                            <children>
+                                <Button fx:id="listActivitiesBtn" alignment="BASELINE_LEFT" graphicTextGap="15.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleListActivities" prefHeight="45.0" styleClass="sidebar-button" text="📅  Activities">
+                                    <padding><Insets left="30.0" /></padding>
+                                </Button>
+                                <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleListMembers" prefHeight="45.0" styleClass="sidebar-button" text="👥  Members">
+                                    <padding><Insets left="30.0" /></padding>
+                                </Button>
+                                <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleProfile" prefHeight="45.0" styleClass="sidebar-button" text="👤  My Profile">
+                                    <padding><Insets left="30.0" /></padding>
+                                </Button>
+                            </children>
+                        </VBox>
+
+                        <VBox alignment="BOTTOM_CENTER" spacing="10.0" VBox.vgrow="NEVER">
+                            <children>
+                                <Separator opacity="0.1" maxWidth="160.0" />
+                                <Button fx:id="exitButton" mnemonicParsing="false" onAction="#handleExit" prefHeight="40.0" prefWidth="160.0" styleClass="red-buttons" text="Log Out" style="-fx-background-color: #c0392b;">
+                                    <VBox.margin>
+                                        <Insets bottom="30.0" top="20.0" />
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+                    </children>
+                </VBox>
+
+                <AnchorPane fx:id="contentPane" style="-fx-background-color: #f8f9fa;" />
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

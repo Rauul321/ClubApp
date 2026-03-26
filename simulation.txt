@@ -1,0 +1,16 @@
+[ADMIN Raul Rosado]Member David added successfully.
+[ADMIN Raul Rosado]Member David modified successfully.
+[ADMIN Raul Rosado]Member David deleted successfully.
+[PARTNER Agostino Poggi] enrolled in activity ID 2 successfully.
+[PARTNER Agostino Poggi] enrolled in activity ID 1 successfully.
+[PARTNER Agostino Poggi] unrolled from activity ID 1 successfully.
+MEMBERS: 
+    - ADMIN: Raul Rosado (admin@club.com)
+    - PARTNER: Agostino Poggi (agostino@club.com)
+    - PARTNER: Alicia Rosado (alicia@club.com)
+ACTIVITIES: 
+    - [Course] ID: 1, Name: Corso Yoga, Date: 10/05/2026
+        Participants: 
+    - [Competition] ID: 2, Name: Gara Nuoto, Date: 20/05/2026
+        Participants: 
+          · PARTNER: Agostino Poggi (agostino@club.com)

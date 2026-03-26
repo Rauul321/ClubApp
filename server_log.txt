@@ -1,0 +1,51 @@
+
+[2026-01-23 18:42:44] [User: admin@club.com] Action: JOINED ACTIVITY ID: 5
+[2026-01-23 18:42:57] [User: admin@club.com] Action: USER: Admin Principal WAS UNROLLED FROM ACTIVITY: 4
+[2026-01-23 18:43:56] [User: admin@club.com] Action: USER: Admin Principal WAS UNROLLED FROM ACTIVITY: 7
+2026-01-23 19:47:31 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-23 19:48:35 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-23 19:52:35 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-23 19:52:53 User: admin@club.com Action: ACTIVITY CREATED: Ping Pong
+2026-01-23 19:53:03 User: admin@club.com Action: JOINED ACTIVITY ID: 11
+2026-01-23 19:53:19 User: admin@club.com Action: ACTIVITY MODIFIED: 11
+2026-01-23 19:53:30 User: admin@club.com Action: ACTIVITY MODIFIED: 11
+2026-01-23 19:56:15 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-23 19:56:32 User: admin@club.com Action: ACTIVITY MODIFIED: 11
+2026-01-23 19:56:41 User: admin@club.com Action: MEMBER DELETED: admin@club.com
+2026-01-23 19:57:45 User: Anonymous Action: LOGIN FAILED for arosador@gmail.com (invalid credentials)
+2026-01-23 19:58:05 User: arosador@gmail.com Action: LOGIN SUCCESSFUL
+2026-01-23 19:58:32 User: arosador@gmail.com Action: MEMBER ADDED: admin@club.com
+2026-01-23 20:40:44 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-24 18:20:04 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-24 18:24:40 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-24 18:36:26 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-24 20:03:50 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-01-24 20:04:25 User: admin@club.com Action: MEMBER ADDED: apoggi@club.com
+2026-01-24 20:04:50 User: admin@club.com Action: MEMBER DELETED: sergiorm@gmail.com
+2026-01-24 20:04:52 User: admin@club.com Action: MEMBER DELETED: mjrefoliom1985@gmail.com
+2026-01-24 20:04:54 User: admin@club.com Action: MEMBER DELETED: drosadom@gmail.com
+2026-01-24 20:04:55 User: admin@club.com Action: MEMBER DELETED: arosador@gmail.com
+2026-02-13 11:24:16 User: rrosador28@gmail.com Action: LOGIN SUCCESSFUL
+2026-02-13 11:24:22 User: rrosador28@gmail.com Action: JOINED ACTIVITY ID: 3
+2026-02-13 11:24:46 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-02-13 11:25:36 User: admin@club.com Action: JOINED ACTIVITY ID: 2
+2026-02-13 11:26:01 User: admin@club.com Action: ACTIVITY MODIFIED: 2
+2026-02-13 11:26:08 User: admin@club.com Action: USER: Main Admin WAS UNROLLED FROM ACTIVITY: 2
+2026-02-13 11:26:26 User: admin@club.com Action: ACTIVITY MODIFIED: 6
+2026-02-13 11:27:02 User: admin@club.com Action: PASSWORD CHANGED for memberMain Admin
+2026-02-13 11:27:35 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-02-13 11:27:53 User: admin@club.com Action: PASSWORD CHANGED for memberMain Admin
+2026-02-13 13:11:34 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-02-13 13:11:54 User: admin@club.com Action: JOINED ACTIVITY ID: 2
+2026-02-13 13:12:14 User: admin@club.com Action: UNROLLED PARTICIPANT: Main Admin from activity ID 2
+2026-02-13 13:12:21 User: admin@club.com Action: UNROLLED PARTICIPANT: Main Admin from activity ID 2
+2026-02-13 13:12:40 User: admin@club.com Action: ACTIVITY MODIFIED: 2
+2026-02-13 13:13:01 User: admin@club.com Action: ACTIVITY CREATED: Football
+2026-02-13 13:13:15 User: admin@club.com Action: ACTIVITY DELETED: 12
+2026-02-13 13:15:31 User: Anonymous Action: LOGIN FAILED for admin@club.com (invalid credentials)
+2026-02-13 13:16:03 User: Anonymous Action: LOGIN FAILED for admin@club.com (invalid credentials)
+2026-02-13 13:16:33 User: admin@club.com Action: LOGIN SUCCESSFUL
+2026-02-13 13:17:40 User: admin@club.com Action: MEMBER ADDED: alicia@gmail.com
+2026-02-13 13:19:19 User: rrosador28@gmail.com Action: LOGIN SUCCESSFUL
+2026-02-13 13:19:36 User: rrosador28@gmail.com Action: JOINED ACTIVITY ID: 2
+2026-02-13 13:20:02 User: rrosador28@gmail.com Action: USER: Raul Refolio WAS UNROLLED FROM ACTIVITY: 2

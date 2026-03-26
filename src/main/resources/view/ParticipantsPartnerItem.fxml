@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.VBox?>
+<HBox alignment="CENTER_LEFT" prefHeight="65.0" prefWidth="550.0"
+      spacing="15.0" styleClass="item-card"
+      style="-fx-background-color: rgba(255,255,255,0.05); -fx-background-radius: 12; -fx-border-color: rgba(255,255,255,0.1); -fx-border-radius: 12;"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+
+    <children>
+        <VBox alignment="CENTER" minWidth="50.0" prefWidth="50.0" style="-fx-background-color: #457B9D; -fx-background-radius: 50;">
+            <children>
+                <Label style="-fx-font-weight: bold; -fx-text-fill: white; -fx-font-size: 18px;" text="👤" />
+            </children>
+            <HBox.margin>
+                <Insets left="10.0" />
+            </HBox.margin>
+        </VBox>
+
+        <VBox alignment="CENTER_LEFT" spacing="2.0">
+            <children>
+                <Label text="Member" textFill="#95a5a6" style="-fx-font-size: 10px; -fx-text-uppercase: true; -fx-font-weight: bold;" />
+                <Label fx:id="partnerEmail" text="participant@email.com" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+
+        <Pane HBox.hgrow="ALWAYS" />
+    </children>
+
+    <padding>
+        <Insets bottom="5.0" top="5.0" />
+    </padding>
+</HBox>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.shape.Rectangle?>
+
+<?import javafx.scene.control.Hyperlink?>
+<AnchorPane prefHeight="700.0" prefWidth="900.0" styleClass="background-pane"
+            stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+            AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+
+            <VBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label text="JOIN THE CLUB" textFill="#38b000" style="-fx-font-weight: bold; -fx-letter-spacing: 3;">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Label>
+                  <Rectangle fill="#38b000" height="2.0" width="50.0" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </VBox>
+
+            <VBox alignment="CENTER" maxWidth="450.0" spacing="15.0" styleClass="form-container">
+               <children>
+                  <Label styleClass="title-label" text="Create Account">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+
+                  <VBox alignment="CENTER_LEFT" spacing="5.0">
+                     <children>
+                        <Label styleClass="input-label" text="First Name" />
+                        <TextField fx:id="nameField" prefHeight="40.0" promptText="Enter your name" styleClass="text-field" />
+                     </children>
+                  </VBox>
+
+                  <VBox alignment="CENTER_LEFT" spacing="5.0">
+                     <children>
+                        <Label styleClass="input-label" text="Last Name" />
+                        <TextField fx:id="surnameField" prefHeight="40.0" promptText="Enter your surname" styleClass="text-field" />
+                     </children>
+                  </VBox>
+
+                  <VBox alignment="CENTER_LEFT" spacing="5.0">
+                     <children>
+                        <Label styleClass="input-label" text="Email Address" />
+                        <TextField fx:id="emailField" prefHeight="40.0" promptText="example@mail.com" styleClass="text-field" />
+                     </children>
+                  </VBox>
+
+                  <VBox alignment="CENTER_LEFT" spacing="5.0">
+                     <children>
+                        <Label styleClass="input-label" text="Security Password" />
+                        <PasswordField fx:id="passwordField" prefHeight="40.0" promptText="••••••••" styleClass="password-field" />
+                     </children>
+                  </VBox>
+
+                  <Button fx:id="signupButton" mnemonicParsing="false" onAction="#handleSignup"
+                          prefHeight="45.0" prefWidth="250.0" styleClass="primary-button" text="Register Now">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Button>
+
+                  <Label fx:id="successLabel" styleClass="status-message" wrapText="true" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="40.0" left="50.0" right="50.0" top="40.0" />
+               </padding>
+            </VBox>
+
+            <Hyperlink fx:id="backToLogin" text="Already have an account? Log In" textFill="#95a5a6" style="-fx-cursor: hand;" onAction="#handleGoBack"/>
+
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
